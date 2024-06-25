@@ -1,0 +1,130 @@
+*,*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  background-color: #0a0e27;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 8em 1fr;
+  grid-template-rows: 1fr 2fr 2fr;
+}
+
+.side-bar,
+.header,
+.money-garph,
+.money-management {
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  border-radius: 50px;
+  border: 5px solid black;
+}
+
+.side-bar{
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  color: #fff;
+  display: grid;
+  grid-row: 1/5;
+  grid-column: 1/1;
+  justify-items: center;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  font-size: 5em;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.logo h1{
+  font-size: .2em;
+}
+
+li {
+  font-size: .6em;
+  list-style: none;
+  cursor: pointer;
+}
+
+li :hover {
+  font-size: 3em; 
+}
+
+ul{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sign-out{
+  align-content: flex-end;
+  font-size: 3em;
+  cursor: pointer;
+  height: 80%;
+}
+
+
+.header{
+  background-color: rgba(255, 255, 255, 0.5);
+  display: grid;
+  grid-row: 1/1;
+  grid-column: 2/5;
+  width: 100%;
+}
+
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  width: 100%;
+}
+
+.available-balance{
+  /* width: 100%; */
+
+}
+
+.date{
+
+}
+
+.profile{
+
+}
+
+.profile-details{
+
+}
+
+.Profile-pic{
+
+}
+
+.money-garph{
+  background-color: rgba(255, 255, 255, 0.2);
+  display: grid;
+  grid-row: 2/3;
+  grid-column: 2/5;
+}
+
+.money-management{
+  background-color: rgba(255, 255, 255, 0.5);
+  display: grid;
+  grid-row: 3/5;
+  grid-column: 2/5;
+}
