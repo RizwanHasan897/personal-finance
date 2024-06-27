@@ -84,7 +84,6 @@ ul{
   display: grid;
   grid-row: 1/1;
   grid-column: 2/5;
-  width: 100%;
 }
 
 .header-info {
