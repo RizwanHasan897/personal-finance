@@ -5,22 +5,7 @@ import SideBar from './Componant/Sidebar.jsx';
 import MoneyManagement from './Componant/MoneyManagement.jsx';
 import MoneyGraph from './Componant/MoneyGraph.jsx';
 
-function App() {
-
-  const getData = async (url) => {
-    const newData = await fetch(url, {
-      method: "GET",
-      headers: {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-      }
-    }).then(res => res.json());
-  
-    console.log(newData);
-  }
-
-  getData('http://localhost:5000/quit')
-  
+function App() {  
 
   return (
     <div className='app'>
